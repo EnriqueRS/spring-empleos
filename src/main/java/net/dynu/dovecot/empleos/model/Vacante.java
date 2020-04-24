@@ -9,6 +9,7 @@ public class Vacante {
 	private String descripcion;
 	private Date fecha;
 	private double salario;
+	private int destacado;
 	
 	
 	public int getId() {
@@ -40,8 +41,13 @@ public class Vacante {
 	}
 	public void setSalario(double salario) {
 		this.salario = salario;
+	}	
+	public int getDestacado() {
+		return destacado;
 	}
-	
+	public void setDestacado(int destacado) {
+		this.destacado = destacado;
+	}
 	@Override
 	public String toString() {
 		return "Vacante [id=" + id + ", nombre=" + nombre + ", descripcion=" + descripcion + ", fecha=" + fecha

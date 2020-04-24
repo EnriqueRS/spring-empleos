@@ -80,6 +80,8 @@ public class HomeController {
 			vacante1.setDescripcion("Para diseñar puente peatonal");
 			vacante1.setFecha(sdf.parse("08-02-2019"));
 			vacante1.setSalario(8500.0);
+			vacante1.setDestacado(1);
+			vacante1.setImagen("empresa1.jpg");
 			
 
 			Vacante vacante2 = new Vacante();
@@ -88,6 +90,8 @@ public class HomeController {
 			vacante2.setDescripcion("Empresa importante solicita contador con 5 años de titulado");
 			vacante2.setFecha(sdf.parse("09-02-2019"));
 			vacante2.setSalario(1200.0);
+			vacante2.setDestacado(0);
+			vacante2.setImagen("empresa2.jpg");
 
 			Vacante vacante3 = new Vacante();
 			vacante3.setId(3);
@@ -95,6 +99,8 @@ public class HomeController {
 			vacante3.setDescripcion("Empresa importante internacional solicita ingeniero mecánico para mantener instalación eléctrica");
 			vacante3.setFecha(sdf.parse("10-02-2019"));
 			vacante3.setSalario(10500.0);
+			vacante3.setDestacado(0);
+			vacante3.setImagen("empresa3.jpg");
 			
 			Vacante vacante4 = new Vacante();
 			vacante4.setId(4);
@@ -102,6 +108,7 @@ public class HomeController {
 			vacante4.setDescripcion("Solicitamos diseñador gráfico para diseñar publicidad de la empresa");
 			vacante4.setFecha(sdf.parse("11-02-2019"));
 			vacante4.setSalario(7500.0);
+			vacante4.setDestacado(1);
 
 			lista.add(vacante1);
 			lista.add(vacante2);

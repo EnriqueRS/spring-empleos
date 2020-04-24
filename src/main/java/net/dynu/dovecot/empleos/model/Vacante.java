@@ -10,7 +10,7 @@ public class Vacante {
 	private Date fecha;
 	private double salario;
 	private int destacado;
-	private String imagen="no-image.jpg";
+	private String imagen="no-image.png";
 	
 	
 	public int getId() {

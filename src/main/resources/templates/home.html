@@ -87,8 +87,7 @@
 					<p th:text="${vacante.descripcion}"></p>
 					<p>
 						<a class="btn btn-secondary"
-							href="@{/vacantes/view/{id} (id=${vacante.id})  }" role="button">View
-							details &raquo;</a>
+							th:href="@{/vacantes/view/{id} (id=${vacante.id})  }" role="button">Detalles &raquo;</a>
 					</p>
 				</div>
 			</div>
